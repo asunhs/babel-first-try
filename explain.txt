@@ -1,0 +1,6 @@
+http://mobicon.tistory.com/463
+http://www.sitepoint.com/setting-up-es6-project-using-babel-browserify/
+http://chuckconway.com/2015/02/21/using-javascript-6-getting-started-today-with-babel-js/
+
+
+npm install -g grunt-cli
