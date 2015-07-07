@@ -60,7 +60,7 @@ console.groupEnd();
 /**
  * Symbol?
  */
-console.group('피보나치');
+console.group('for..of 피보나치');
 for (var n of fibonacci) {
     // truncate the sequence at 1000
     if (n > 1000)
