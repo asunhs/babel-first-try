@@ -10,4 +10,19 @@ let fibonacci = {
     }
 }
 
-export default fibonacci;
+
+function run() {
+    /**
+     * Symbol?
+     */
+    console.group('for..of 피보나치');
+    for (var n of fibonacci) {
+        // truncate the sequence at 1000
+        if (n > 1000)
+            break;
+        console.log(n);
+    }
+    console.groupEnd();
+}
+
+export default run;
